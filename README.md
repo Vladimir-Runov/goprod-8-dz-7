@@ -5,10 +5,22 @@
 
 # Installation
 
+```  
+ cd путь_кпапке
+ go work init
+ go mod tidy
+ go mod init goprod-8-dz-7
+ go run main.go
+
 ```
-  go goprod-8-dz-7 init
-  go mod init goprod-8-dz-7
-  
+
+goprod-8-dz-7/  
+├── go.mod 
+├── main.go  
+└── proc/  
+    └── processor.go  
+└── utils/  
+    └── util.go  
 
 ```
 
